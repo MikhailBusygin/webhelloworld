@@ -39,6 +39,6 @@
     </dependencies>
 
     <build>
-        <finalName>ROOT</finalName>
+        <finalName>webhelloworld</finalName>
     </build>
 </project>
