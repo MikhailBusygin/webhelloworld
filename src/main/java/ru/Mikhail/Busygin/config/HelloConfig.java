@@ -15,7 +15,7 @@ public class HelloConfig {
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
-        internalResourceViewResolver.setPrefix("/WEB-INF/views/");
+        internalResourceViewResolver.setPrefix("/");
         internalResourceViewResolver.setSuffix(".jsp");
 
         return internalResourceViewResolver;
